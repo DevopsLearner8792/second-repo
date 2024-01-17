@@ -1,0 +1,48 @@
+Visibility time-out
+dead-letter queue
+delay queue
+
+     producer produces the message and place it in msg-queue
+     consumer will process the msg from that queue.
+  visibility time-out---> each msg has time-limit
+                             seconds to hours
+                              1 sec to 12 hrs.
+                          
+flight messages:
+ stored messages:
+       message must be placed in the queue but not yet consumed by the consumers
+ flight messages:
+       message must be consumed by the consumer but not yet deleted in the message queue.
+
+Dead-Letter Queue:
+   1.If consumer facing some hardware issues or busy unable to process the message
+   2.after visibility time-out the message must be moved to "Dead-Letter Queue" from  Queue.
+   3.consumer search for the message in main  Queue.if the message not found
+      then
+   4.consumer will search for same message in "DLQ".
+
+
+
+   producer produces--->10 msgs/sec
+   consumer consumes--->5 msgs/sec
+
+          2 sec
+            p--->20         10--->hidden
+            c--->10
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+ 

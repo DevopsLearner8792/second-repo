@@ -1,0 +1,5 @@
+https://dev.to/aws-builders/elastic-beanstalk-demo-auto-scaling-with-a-shared-load-balancer-5n4
+
+https://www.linkedin.com/pulse/aws-elastic-beanstalk-deploy-your-first-application-nitin-suvagiya/
+
+https://www.workfall.com/learning/blog/how-to-set-up-a-continuous-deployment-pipeline-to-deploy-versions-of-an-application-on-aws-elastic-beanstalk-using-aws-codepipeline-part-2/
